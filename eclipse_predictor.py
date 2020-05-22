@@ -88,4 +88,4 @@ print('for '+Time(interesttime, out_subfmt='date_hm').iso+' the next '+str(int(n
 for i in range(0, int(n_eclipses)):
     t = mjdeclipses[-int(n_eclipses)+i]
     times = t - math.floor(mjd)
-    print(Time(times, format='datetime',scale='tdb'))
+    print(Time(times, format='datetime'))
